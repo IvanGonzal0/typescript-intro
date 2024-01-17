@@ -9,7 +9,7 @@ function printResult(num: number): void {
 
 printResult(add(5,12));
 
-let combineValues;
+let combineValues: (a: number, b: number) => number;
 combineValues = add;
 
 console.log(combineValues(8, 8));
